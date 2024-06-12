@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.Registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 16px 0px;
+  padding: 25px;
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+  height: 55vh;
+  margin-top: 30px;
+}
+.label-name-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.labels {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.inputs {
+  border-color: #cbd2d9;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  width: 30vw;
+  outline: none;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.submitted-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 500;
+  text-align: center;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  margin: 0px;
+  font-size: 12px;
+}
